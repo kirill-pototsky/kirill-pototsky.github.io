@@ -4,12 +4,12 @@
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
-		<title>Project Template</title>
+		<title>Terms &amp; Condition</title>
 		<meta name="description" content="">
 		<meta name="keywords" content="">
 		<meta name="msapplication-tap-highlight" content="no">
 		<meta name="format-detection" content="telephone=no">
-		<link href="favicon.ico" rel="shortcut icon">
+		<link href="favicon.png" rel="shortcut icon">
 		<link href="assets/styles/app.min.css" rel="stylesheet">
 	</head>
 	<body>
@@ -190,27 +190,27 @@
 				</div>
 				<form class="modal__form modal-form">
 					<div class="modal-form__wrap">
-						<input class="modal-form__input" type="text" placeholder="Your name">
+						<input class="modal-form__input" type="text" placeholder="Your name" required>
 					</div>
 					<div class="modal-form__wrap">
-						<input class="modal-form__input" type="text" placeholder="e-mail">
+						<input class="modal-form__input" type="text" placeholder="e-mail" required>
 					</div>
 					<div class="modal-form__wrap">
-						<input class="modal-form__input" type="text" placeholder="password">
+						<input class="modal-form__input" type="text" placeholder="password" required>
 					</div>
 					<div class="modal-form__wrap">
-						<input class="modal-form__input" type="text" placeholder="confirm password">
+						<input class="modal-form__input" type="text" placeholder="confirm password" required>
 					</div>
 					<button class="button modal-form__button">
 						<span class="button__label"> Register</span>
 					</button>
+					<label class="modal-form__accept">
+						<input class="modal-form__checkbox" type="checkbox" required>
+						<span class="modal-form__label">I Accept to the Terms & Conditions</span>
+					</label>
 					<span class="button-skip">
 						<span class="button-skip__label">Skip and play now</span>
 					</span>
-					<label class="modal-form__accept">
-						<input class="modal-form__checkbox" type="checkbox">
-						<span class="modal-form__label">I Accept to the Terms & Conditions</span>
-					</label>
 				</form>
 			</div>
 			<div class="modal" data-modal="login">
@@ -220,22 +220,21 @@
 				</div>
 				<form class="modal__form modal-form">
 					<div class="modal-form__wrap">
-						<input class="modal-form__input" type="text" placeholder="Your name">
+						<input class="modal-form__input" type="text" placeholder="Your name" required>
 					</div>
 					<div class="modal-form__wrap">
-						<input class="modal-form__input" type="text" placeholder="password">
+						<input class="modal-form__input" type="text" placeholder="password" required>
 					</div>
 					<button class="button modal-form__button">
 						<span class="button__label"> Log in</span>
 					</button>
 					<label class="modal-form__accept">
-						<input class="modal-form__checkbox" type="checkbox">
+						<input class="modal-form__checkbox" type="checkbox" required>
 						<span class="modal-form__label">I Accept to the Terms & Conditions</span>
 					</label>
-					<div class="modal-form__warning">
-						<span class="modal-form__label">Don't have an account?</span>
-						<a class="modal-form__label modal-form__link" href="index.html">Register Now</a>
-					</div>
+					<span class="button-skip">
+						<span class="button-skip__label">Skip and play now</span>
+					</span>
 				</form>
 			</div>
 		</div>
