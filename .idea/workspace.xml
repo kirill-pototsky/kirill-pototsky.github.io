@@ -1,21 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="998763ef-d193-4c7d-8422-9bd546c8425e" name="Default Changelist" comment="Lucky star update">
-      <change beforePath="$PROJECT_DIR$/best-star/assets/fonts/Montserrat-Bold.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/best-star/assets/fonts/Montserrat-Bold.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/best-star/assets/fonts/Montserrat-Medium.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/best-star/assets/fonts/Montserrat-Medium.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/best-star/assets/fonts/Montserrat-Regular.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/best-star/assets/fonts/Montserrat-Regular.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/best-star/assets/images/intro-bg.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/best-star/assets/images/intro-bg.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/best-star/assets/images/logo.svg" beforeDir="false" afterPath="$PROJECT_DIR$/best-star/assets/images/logo.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/best-star/assets/images/sprite.svg" beforeDir="false" afterPath="$PROJECT_DIR$/best-star/assets/images/sprite.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/best-star/assets/scripts/app.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/best-star/assets/scripts/app.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/best-star/assets/styles/app.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/best-star/assets/styles/app.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/best-star/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/best-star/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/best-star/main.php" beforeDir="false" />
-    </list>
+    <list default="true" id="998763ef-d193-4c7d-8422-9bd546c8425e" name="Default Changelist" comment="unique-v1.0.0 . unique-v2.0.0 . unique-v3.0.0 init" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -51,6 +37,7 @@
       <workItem from="1636000910184" duration="16000" />
       <workItem from="1636020536806" duration="1367000" />
       <workItem from="1636634888415" duration="664000" />
+      <workItem from="1639426336758" duration="462000" />
     </task>
     <task id="LOCAL-00001" summary="Init chargedslots">
       <created>1635948639587</created>
@@ -108,7 +95,14 @@
       <option name="project" value="LOCAL" />
       <updated>1636634949094</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="unique-v1.0.0 . unique-v2.0.0 . unique-v3.0.0 init">
+      <created>1639426604943</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1639426604943</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -133,6 +127,7 @@
     <MESSAGE value="Best star fix" />
     <MESSAGE value="Lucky star init" />
     <MESSAGE value="Lucky star update" />
-    <option name="LAST_COMMIT_MESSAGE" value="Lucky star update" />
+    <MESSAGE value="unique-v1.0.0 . unique-v2.0.0 . unique-v3.0.0 init" />
+    <option name="LAST_COMMIT_MESSAGE" value="unique-v1.0.0 . unique-v2.0.0 . unique-v3.0.0 init" />
   </component>
 </project>
