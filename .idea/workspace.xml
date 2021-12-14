@@ -1,8 +1,68 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="998763ef-d193-4c7d-8422-9bd546c8425e" name="Default Changelist" comment="unique-v3.0.0 preview fix / game 16 test">
-      <change beforePath="$PROJECT_DIR$/unique-v2.0.0/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/unique-v2.0.0/index.html" afterDir="false" />
+    <list default="true" id="998763ef-d193-4c7d-8422-9bd546c8425e" name="Default Changelist" comment="unique-v1.0.0 &amp;&amp; unique-v2.0.0 preview fix">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unique-v3.0.0/games/16/appmanifest.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unique-v3.0.0/games/16/c2runtime.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unique-v3.0.0/games/16/data.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unique-v3.0.0/games/16/icon-114.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unique-v3.0.0/games/16/icon-128.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unique-v3.0.0/games/16/icon-16.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unique-v3.0.0/games/16/icon-256.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unique-v3.0.0/games/16/icon-32.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unique-v3.0.0/games/16/images/add_10-sheet0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unique-v3.0.0/games/16/images/add_100-sheet0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unique-v3.0.0/games/16/images/add_1000-sheet0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unique-v3.0.0/games/16/images/background.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unique-v3.0.0/games/16/images/betlabel-sheet0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unique-v3.0.0/games/16/images/black.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unique-v3.0.0/games/16/images/buttonclose-sheet0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unique-v3.0.0/games/16/images/buttoncontinuegame-sheet0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unique-v3.0.0/games/16/images/buttonexpand-sheet0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unique-v3.0.0/games/16/images/buttonexpand-sheet1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unique-v3.0.0/games/16/images/buttonleavegame-sheet0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unique-v3.0.0/games/16/images/buttonpause-sheet0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unique-v3.0.0/games/16/images/buttonplay-sheet0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unique-v3.0.0/games/16/images/buttonrestart-sheet0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unique-v3.0.0/games/16/images/buttonrestart02-sheet0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unique-v3.0.0/games/16/images/buttonsound-sheet0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unique-v3.0.0/games/16/images/buttonwheelspin-sheet0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unique-v3.0.0/games/16/images/creditslabel-sheet0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unique-v3.0.0/games/16/images/facebookbutton-sheet0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unique-v3.0.0/games/16/images/light-sheet0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unique-v3.0.0/games/16/images/messagelabel.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unique-v3.0.0/games/16/images/messagescore-sheet0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unique-v3.0.0/games/16/images/spritefontcredits.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unique-v3.0.0/games/16/images/title.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unique-v3.0.0/games/16/images/transition.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unique-v3.0.0/games/16/images/twitterbutton-sheet0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unique-v3.0.0/games/16/images/wheel-sheet0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unique-v3.0.0/games/16/images/wheelbase-sheet0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unique-v3.0.0/games/16/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unique-v3.0.0/games/16/jquery-2.1.1.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unique-v3.0.0/games/16/loading-logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unique-v3.0.0/games/16/media/buttonclick.m4a" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unique-v3.0.0/games/16/media/buttonclick.ogg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unique-v3.0.0/games/16/media/cassinosong.m4a" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unique-v3.0.0/games/16/media/cassinosong.ogg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unique-v3.0.0/games/16/media/coinsfalling01.m4a" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unique-v3.0.0/games/16/media/coinsfalling01.ogg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unique-v3.0.0/games/16/media/forbidden.m4a" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unique-v3.0.0/games/16/media/forbidden.ogg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unique-v3.0.0/games/16/media/message.m4a" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unique-v3.0.0/games/16/media/message.ogg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unique-v3.0.0/games/16/media/miss.m4a" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unique-v3.0.0/games/16/media/miss.ogg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unique-v3.0.0/games/16/media/roullete.m4a" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unique-v3.0.0/games/16/media/roullete.ogg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unique-v3.0.0/games/16/media/singlecoincollected.m4a" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unique-v3.0.0/games/16/media/singlecoincollected.ogg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unique-v3.0.0/games/16/media/spinning.m4a" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unique-v3.0.0/games/16/media/spinning.ogg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unique-v3.0.0/games/16/offline.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unique-v3.0.0/games/16/offlineClient.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unique-v3.0.0/games/16/sw.js" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,7 +101,7 @@
       <workItem from="1636634888415" duration="664000" />
       <workItem from="1639426336758" duration="844000" />
       <workItem from="1639471566268" duration="537000" />
-      <workItem from="1639488120619" duration="304000" />
+      <workItem from="1639488120619" duration="1076000" />
     </task>
     <task id="LOCAL-00001" summary="Init chargedslots">
       <created>1635948639587</created>
@@ -127,7 +187,14 @@
       <option name="project" value="LOCAL" />
       <updated>1639488157753</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="unique-v1.0.0 &amp;&amp; unique-v2.0.0 preview fix">
+      <created>1639488518820</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1639488518820</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -156,6 +223,7 @@
     <MESSAGE value="test v 1" />
     <MESSAGE value="unique-v1.0.0" />
     <MESSAGE value="unique-v3.0.0 preview fix / game 16 test" />
-    <option name="LAST_COMMIT_MESSAGE" value="unique-v3.0.0 preview fix / game 16 test" />
+    <MESSAGE value="unique-v1.0.0 &amp;&amp; unique-v2.0.0 preview fix" />
+    <option name="LAST_COMMIT_MESSAGE" value="unique-v1.0.0 &amp;&amp; unique-v2.0.0 preview fix" />
   </component>
 </project>
