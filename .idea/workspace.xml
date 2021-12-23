@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="998763ef-d193-4c7d-8422-9bd546c8425e" name="Default Changelist" comment="unique-v1.1.0 init" />
+    <list default="true" id="998763ef-d193-4c7d-8422-9bd546c8425e" name="Default Changelist" comment="unique-v2.1.0 &amp;&amp; unique-v3.1.0 init" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -42,6 +42,7 @@
       <workItem from="1639488120619" duration="1163000" />
       <workItem from="1639599959144" duration="651000" />
       <workItem from="1640123999796" duration="163000" />
+      <workItem from="1640210470446" duration="208000" />
     </task>
     <task id="LOCAL-00001" summary="Init chargedslots">
       <created>1635948639587</created>
@@ -155,7 +156,14 @@
       <option name="project" value="LOCAL" />
       <updated>1640124029328</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="unique-v2.1.0 &amp;&amp; unique-v3.1.0 init">
+      <created>1640210559120</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1640210559120</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -188,6 +196,7 @@
     <MESSAGE value="unique-v3.0.0 remove folder whith test game" />
     <MESSAGE value="best star fixed init" />
     <MESSAGE value="unique-v1.1.0 init" />
-    <option name="LAST_COMMIT_MESSAGE" value="unique-v1.1.0 init" />
+    <MESSAGE value="unique-v2.1.0 &amp;&amp; unique-v3.1.0 init" />
+    <option name="LAST_COMMIT_MESSAGE" value="unique-v2.1.0 &amp;&amp; unique-v3.1.0 init" />
   </component>
 </project>
