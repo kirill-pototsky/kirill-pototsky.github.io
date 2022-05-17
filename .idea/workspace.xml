@@ -45,6 +45,7 @@
       <workItem from="1640210470446" duration="208000" />
       <workItem from="1640221332267" duration="105000" />
       <workItem from="1641849528461" duration="655000" />
+      <workItem from="1642964032412" duration="416000" />
     </task>
     <task id="LOCAL-00001" summary="Init chargedslots">
       <created>1635948639587</created>
@@ -195,7 +196,6 @@
         </entry>
       </map>
     </option>
-    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Init chargedslots" />
