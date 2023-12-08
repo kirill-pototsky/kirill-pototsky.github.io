@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="998763ef-d193-4c7d-8422-9bd546c8425e" name="Default Changelist" comment="update">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="998763ef-d193-4c7d-8422-9bd546c8425e" name="Default Changelist" comment="update" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -73,6 +71,7 @@
       <workItem from="1701764743355" duration="630000" />
       <workItem from="1701812020156" duration="633000" />
       <workItem from="1701896604066" duration="899000" />
+      <workItem from="1701905108111" duration="83000" />
     </task>
     <task id="LOCAL-00001" summary="Init chargedslots">
       <created>1635948639587</created>
@@ -249,7 +248,14 @@
       <option name="project" value="LOCAL" />
       <updated>1701896938461</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="update">
+      <created>1701905141351</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1701905141351</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
