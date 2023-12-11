@@ -73,6 +73,7 @@
       <workItem from="1701896604066" duration="899000" />
       <workItem from="1701905108111" duration="83000" />
       <workItem from="1702035386742" duration="1454000" />
+      <workItem from="1702064923462" duration="619000" />
     </task>
     <task id="LOCAL-00001" summary="Init chargedslots">
       <created>1635948639587</created>
@@ -270,7 +271,14 @@
       <option name="project" value="LOCAL" />
       <updated>1702036757834</updated>
     </task>
-    <option name="localTasksCounter" value="29" />
+    <task id="LOCAL-00029" summary="update">
+      <created>1702064935362</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1702064935362</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
