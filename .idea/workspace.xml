@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="998763ef-d193-4c7d-8422-9bd546c8425e" name="Default Changelist" comment="update">
-      <change afterPath="$PROJECT_DIR$/.htaccess" afterDir="false" />
-    </list>
+    <list default="true" id="998763ef-d193-4c7d-8422-9bd546c8425e" name="Default Changelist" comment="update" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -76,7 +74,7 @@
       <workItem from="1701905108111" duration="83000" />
       <workItem from="1702035386742" duration="1454000" />
       <workItem from="1702064923462" duration="619000" />
-      <workItem from="1702334869209" duration="361000" />
+      <workItem from="1702334869209" duration="984000" />
     </task>
     <task id="LOCAL-00001" summary="Init chargedslots">
       <created>1635948639587</created>
@@ -288,7 +286,14 @@
       <option name="project" value="LOCAL" />
       <updated>1702334879195</updated>
     </task>
-    <option name="localTasksCounter" value="31" />
+    <task id="LOCAL-00031" summary="update">
+      <created>1702335245796</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1702335245796</updated>
+    </task>
+    <option name="localTasksCounter" value="32" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
