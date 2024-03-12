@@ -1,0 +1,1 @@
+@charset "UTF-8";.b-coins-ticker[data-v-b00a2e3d]{display:flex;white-space:nowrap;animation:ticker-b00a2e3d 100s linear infinite}.b-coins-ticker__item[data-v-b00a2e3d]{text-transform:uppercase;padding:0 .625em}.b-coins-ticker__item[data-v-b00a2e3d]:nth-child(2n){color:#f39036}@keyframes ticker-b00a2e3d{0%{transform:translate3d(100%,0,0)}to{transform:translate3d(-100%,0,0)}}
