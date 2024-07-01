@@ -1,0 +1,422 @@
+<!--size as string xs | sm-->
+<!--type: xs |  md | lg as string, {title: boolean | string, chips: boolean | string, breadcrumbs: boolean, productActions: boolean, titleCentred: boolean}-->
+<!DOCTYPE html>
+<html lang="ru">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<title>Коллекция Грессерова</title>
+		<meta name="description" content="">
+		<meta name="keywords" content="">
+		<meta name="msapplication-tap-highlight" content="no">
+		<meta name="format-detection" content="telephone=no">
+		<link href="favicon.ico" rel="shortcut icon">
+		<link href="assets/styles/app.min.css" rel="stylesheet">
+	</head>
+	<body>
+		<div class="layout layout--favorite-page">
+			<header class="header layout__header is-desktop">
+				<div class="container header__container">
+					<nav class="navigation header__navigation">
+						<ul class="navigation__list navigation-list">
+							<li class="navigation-list__item">
+								<a class="navigation-list__link" href="/expertise-page.html">
+									<span class="navigation-list__label">Экспертиза</span>
+								</a>
+							</li>
+							<li class="navigation-list__item">
+								<a class="navigation-list__link" href="/repair-page.html">
+									<span class="navigation-list__label">Мастерская</span>
+								</a>
+							</li>
+							<li class="navigation-list__item">
+								<a class="navigation-list__link" href="/">
+									<span class="navigation-list__label">Заказать мерч</span>
+								</a>
+							</li>
+						</ul>
+					</nav>
+					<a class="logo header__logo" href="/"><img class="logo__img" src="/assets/images/logo.svg" alt="logo"></a>
+					<div class="header__actions">
+						<a class="social-item header__social">
+							<svg class="social-item__icon"><use xlink:href="assets/images/svg-sprite.svg#instagram"></use></svg>
+							<span class="social-item__label">Instagram link</span>
+						</a>
+						<button class="lang header__action">
+							<div class="lang__selected">
+								<span class="lang__label" id="selectedLanguage">RU</span>
+								<svg class="lang__icon"><use xlink:href="assets/images/svg-sprite.svg#arrow-down"></use></svg>
+							</div>
+							<ul class="lang__options" id="languageOptions">
+								<li class="lang__option" data-lang="RU">RU</li>
+								<li class="lang__option" data-lang="EN">EN</li>
+								<li class="lang__option" data-lang="FR">FR</li>
+								<li class="lang__option" data-lang="ES">ES</li>
+							</ul>
+						</button>
+						<button class="button-tag header__action search-open">
+							<span class="button-tag__icon">
+								<svg class="button-tag__svg"><use xlink:href="assets/images/svg-sprite.svg#search"></use></svg>
+							</span>
+						</button>
+						<a class="button-tag header__action" href="favorite-page.html">
+							<span class="button-tag__count">6</span>
+							<span class="button-tag__icon">
+								<svg class="button-tag__svg"><use xlink:href="assets/images/svg-sprite.svg#heart"></use></svg>
+							</span>
+						</a>
+					</div>
+				</div>
+			</header>
+			<header class="header layout__header is-mobi">
+				<div class="container header__container">
+					<nav class="navigation--mobi navigation header__navigation">
+						<header class="navigation__header is-mobi">
+							<h4 class="navigation__title">Меню</h4>
+							<button class="button-tag navigation__close">
+								<span class="button-tag__icon">
+									<svg class="button-tag__svg"><use xlink:href="assets/images/svg-sprite.svg#close"></use></svg>
+								</span>
+							</button>
+						</header>
+						<ul class="navigation__list navigation-list">
+							<li class="navigation-list__item">
+								<a class="navigation-list__link" href="/">
+									<span class="navigation-list__label">Коллекция Грессерова</span>
+								</a>
+							</li>
+							<li class="navigation-list__item">
+								<a class="navigation-list__link" href="/expertise-page.html">
+									<span class="navigation-list__label">Экспертиза</span>
+								</a>
+							</li>
+							<li class="navigation-list__item">
+								<a class="navigation-list__link" href="/repair-page.html">
+									<span class="navigation-list__label">Мастерская</span>
+								</a>
+							</li>
+							<li class="navigation-list__item">
+								<a class="navigation-list__link" href="/">
+									<span class="navigation-list__label">Заказать мерч</span>
+								</a>
+							</li>
+							<li class="navigation-list__item">
+								<a class="navigation-list__link" href="/">
+									<span class="navigation-list__label">Instagram link</span>
+									<svg class="navigation-list__icon"><use xlink:href="assets/images/svg-sprite.svg#instagram"></use></svg>
+								</a>
+							</li>
+						</ul>
+					</nav>
+					<div class="header__actions">
+						<button class="button-tag header__action search-open">
+							<span class="button-tag__icon">
+								<svg class="button-tag__svg"><use xlink:href="assets/images/svg-sprite.svg#search"></use></svg>
+							</span>
+						</button>
+						<a class="button-tag header__action" href="favorite-page.html">
+							<span class="button-tag__count">6</span>
+							<span class="button-tag__icon">
+								<svg class="button-tag__svg"><use xlink:href="assets/images/svg-sprite.svg#heart"></use></svg>
+							</span>
+						</a>
+					</div>
+					<div class="header__actions">
+						<button class="lang header__action">
+							<div class="lang__selected">
+								<span class="lang__label" id="selectedLanguage">RU</span>
+								<svg class="lang__icon"><use xlink:href="assets/images/svg-sprite.svg#arrow-down"></use></svg>
+							</div>
+							<ul class="lang__options" id="languageOptions">
+								<li class="lang__option" data-lang="RU">RU</li>
+								<li class="lang__option" data-lang="EN">EN</li>
+								<li class="lang__option" data-lang="FR">FR</li>
+								<li class="lang__option" data-lang="ES">ES</li>
+							</ul>
+						</button>
+						<button class="button-tag header__action burger" href="favorite-page.html">
+							<span class="button-tag__icon">
+								<svg class="button-tag__svg"><use xlink:href="assets/images/svg-sprite.svg#burger"></use></svg>
+							</span>
+						</button>
+					</div>
+					<a class="logo header__logo" href="/"><img class="logo__img" src="/assets/images/logo.svg" alt="logo"></a>
+				</div>
+			</header>
+			<div class="layout__sidebar scroll-top-js is-desktop">
+				<button class="button-up scroll-top-js">
+					<svg class="button-up__icon"><use xlink:href="assets/images/svg-sprite.svg#arrow-up"></use></svg>
+					<span class="button-up__label">Наверх</span>
+				</button>
+			</div>
+			<main class="layout__content">
+				<section class="section--lg section">
+					<div class="container">
+						<header class="section__header">
+							<h1 class="section__title">Избранные модели</h1>
+						</header>
+						<div class="catalog">
+							<div class="catalog__grid">
+								<a class="product-card--is-favorite product-card catalog__item" href="/product-page.html">
+									<div class="product-card__preview"><img class="product-card__image" src="./assets/images/products/1.jpg" alt="product">
+										<div class="product-card__bage"><img src="./assets/images/bage.svg" alt=""></div>
+										<button class="button-tag product-card__fevarite is-product-card">
+											<span class="button-tag__icon">
+												<svg class="button-tag__svg"><use xlink:href="assets/images/svg-sprite.svg#heart"></use></svg>
+											</span>
+										</button>
+									</div>
+									<div class="product-card__info">
+										<h4 class="product-card__title">Москвич 412 Цельнолитой артикульный металлик</h4>
+										<ul class="product-card__tags product-card-tags">
+											<li class="product-card-tags__item">Цвет: разноцветный</li>
+											<li class="product-card-tags__item">Модель A14</li>
+										</ul>
+									</div>
+								</a>
+								<a class="product-card--is-favorite product-card catalog__item" href="/product-page.html">
+									<div class="product-card__preview"><img class="product-card__image" src="./assets/images/products/2.jpg" alt="product">
+										<div class="product-card__bage"><img src="./assets/images/bage.svg" alt=""></div>
+										<button class="button-tag product-card__fevarite is-product-card">
+											<span class="button-tag__icon">
+												<svg class="button-tag__svg"><use xlink:href="assets/images/svg-sprite.svg#heart"></use></svg>
+											</span>
+										</button>
+									</div>
+									<div class="product-card__info">
+										<h4 class="product-card__title">Москвич 412 Цельнолитой артикульный металлик</h4>
+										<ul class="product-card__tags product-card-tags">
+											<li class="product-card-tags__item">Цвет: разноцветный</li>
+											<li class="product-card-tags__item">Модель A14</li>
+										</ul>
+									</div>
+								</a>
+								<a class="product-card--is-favorite product-card catalog__item" href="/product-page.html">
+									<div class="product-card__preview"><img class="product-card__image" src="./assets/images/products/3.jpg" alt="product">
+										<div class="product-card__bage"><img src="./assets/images/bage.svg" alt=""></div>
+										<button class="button-tag product-card__fevarite is-product-card">
+											<span class="button-tag__icon">
+												<svg class="button-tag__svg"><use xlink:href="assets/images/svg-sprite.svg#heart"></use></svg>
+											</span>
+										</button>
+									</div>
+									<div class="product-card__info">
+										<h4 class="product-card__title">Москвич 412 Цельнолитой артикульный металлик</h4>
+										<ul class="product-card__tags product-card-tags">
+											<li class="product-card-tags__item">Цвет: разноцветный</li>
+											<li class="product-card-tags__item">Модель A14</li>
+										</ul>
+									</div>
+								</a>
+								<a class="product-card--is-favorite product-card catalog__item" href="/product-page.html">
+									<div class="product-card__preview"><img class="product-card__image" src="./assets/images/products/4.jpg" alt="product">
+										<div class="product-card__bage"><img src="./assets/images/bage.svg" alt=""></div>
+										<button class="button-tag product-card__fevarite is-product-card">
+											<span class="button-tag__icon">
+												<svg class="button-tag__svg"><use xlink:href="assets/images/svg-sprite.svg#heart"></use></svg>
+											</span>
+										</button>
+									</div>
+									<div class="product-card__info">
+										<h4 class="product-card__title">Москвич 412 Цельнолитой артикульный металлик</h4>
+										<ul class="product-card__tags product-card-tags">
+											<li class="product-card-tags__item">Цвет: разноцветный</li>
+											<li class="product-card-tags__item">Модель A14</li>
+										</ul>
+									</div>
+								</a>
+								<a class="product-card--is-favorite product-card catalog__item" href="/product-page.html">
+									<div class="product-card__preview"><img class="product-card__image" src="./assets/images/products/5.jpg" alt="product">
+										<div class="product-card__bage"><img src="./assets/images/bage.svg" alt=""></div>
+										<button class="button-tag product-card__fevarite is-product-card">
+											<span class="button-tag__icon">
+												<svg class="button-tag__svg"><use xlink:href="assets/images/svg-sprite.svg#heart"></use></svg>
+											</span>
+										</button>
+									</div>
+									<div class="product-card__info">
+										<h4 class="product-card__title">Москвич 412 Цельнолитой артикульный металлик</h4>
+										<ul class="product-card__tags product-card-tags">
+											<li class="product-card-tags__item">Цвет: разноцветный</li>
+											<li class="product-card-tags__item">Модель A14</li>
+										</ul>
+									</div>
+								</a>
+								<a class="product-card--is-favorite product-card catalog__item" href="/product-page.html">
+									<div class="product-card__preview"><img class="product-card__image" src="./assets/images/products/6.jpg" alt="product">
+										<div class="product-card__bage"><img src="./assets/images/bage.svg" alt=""></div>
+										<button class="button-tag product-card__fevarite is-product-card">
+											<span class="button-tag__icon">
+												<svg class="button-tag__svg"><use xlink:href="assets/images/svg-sprite.svg#heart"></use></svg>
+											</span>
+										</button>
+									</div>
+									<div class="product-card__info">
+										<h4 class="product-card__title">Москвич 412 Цельнолитой артикульный металлик</h4>
+										<ul class="product-card__tags product-card-tags">
+											<li class="product-card-tags__item">Цвет: разноцветный</li>
+											<li class="product-card-tags__item">Модель A14</li>
+										</ul>
+									</div>
+								</a>
+							</div>
+						</div>
+					</div>
+				</section>
+			</main>
+			<div class="overlay">
+				<div class="search-modal is-popup">
+					<div class="container search-modal__container">
+						<label class="search-modal__label">
+							<button class="button-tag search-modal__btn modal-search-btn">
+								<span class="button-tag__icon">
+									<svg class="button-tag__svg"><use xlink:href="assets/images/svg-sprite.svg#search"></use></svg>
+								</span>
+							</button>
+							<input class="search-modal__input modal-search-input" placeholder="Какую модель вы ищете?">
+						</label>
+						<button class="button-tag search-modal__close modal-close">
+							<span class="button-tag__icon">
+								<svg class="button-tag__svg"><use xlink:href="assets/images/svg-sprite.svg#close-gray"></use></svg>
+							</span>
+						</button>
+					</div>
+				</div>
+				<div class="modal is-popup steps-modal">
+					<button class="button-tag modal__close modal-close">
+						<span class="button-tag__icon">
+							<svg class="button-tag__svg"><use xlink:href="assets/images/svg-sprite.svg#close-gray"></use></svg>
+						</span>
+					</button>
+					<h4 class="modal__title">Этапы экспертизы</h4>
+					<ul class="steps-modal__list">
+						<li class="steps-modal__item--step-1 steps-modal__item">
+							<span class="steps-modal__icon">
+								<svg class="steps-modal__svg"><use xlink:href="assets/images/svg-sprite.svg#step-1"></use></svg>
+							</span>
+							<span class="steps-modal__label">Добавьте качественные фото и укажите совою почту</span>
+						</li>
+						<li class="steps-modal__item--step-2 steps-modal__item">
+							<span class="steps-modal__icon">
+								<svg class="steps-modal__svg"><use xlink:href="assets/images/svg-sprite.svg#step-2"></use></svg>
+							</span>
+							<span class="steps-modal__label">Отправим вам письмо на почту для её подтверждения</span>
+						</li>
+						<li class="steps-modal__item--step-3 steps-modal__item">
+							<span class="steps-modal__icon">
+								<svg class="steps-modal__svg"><use xlink:href="assets/images/svg-sprite.svg#step-3"></use></svg>
+							</span>
+							<span class="steps-modal__label">Наш специалист оценит возможность проверки подлинности модели по вашим фото</span>
+						</li>
+						<li class="steps-modal__item--step-4 steps-modal__item">
+							<span class="steps-modal__icon">
+								<svg class="steps-modal__svg"><use xlink:href="assets/images/svg-sprite.svg#step-4"></use></svg>
+							</span>
+							<span class="steps-modal__label">Специалист может дать заключение о невозможности провести экспертизу, сообщим вам об этом на почту, предложим другие варианты</span>
+						</li>
+						<li class="steps-modal__item--step-5 steps-modal__item">
+							<span class="steps-modal__icon">
+								<svg class="steps-modal__svg"><use xlink:href="assets/images/svg-sprite.svg#step-5"></use></svg>
+							</span>
+							<span class="steps-modal__label">При успешной возможности провести экспертизу отправим вам ссылку на почту о оплате услуги</span>
+						</li>
+						<li class="steps-modal__item--check steps-modal__item">
+							<span class="steps-modal__icon">
+								<svg class="steps-modal__svg"><use xlink:href="assets/images/svg-sprite.svg#check"></use></svg>
+							</span>
+							<span class="steps-modal__label">После получения оплаты. В течении X дней пришлем вам сертификат о проведенной экспертизе.</span>
+						</li>
+					</ul>
+				</div>
+				<div class="modal is-popup success-modal">
+					<button class="button-tag modal__close modal-close">
+						<span class="button-tag__icon">
+							<svg class="button-tag__svg"><use xlink:href="assets/images/svg-sprite.svg#close-gray"></use></svg>
+						</span>
+					</button>
+					<span class="modal__icon">
+						<svg class="modal__svg"><use xlink:href="assets/images/svg-sprite.svg#success"></use></svg>
+					</span>
+					<p class="modal__description">Заявка на экспертизу успешно отправлена</p>
+				</div>
+			</div>
+			<footer class="footer layout__footer is-desktop">
+				<div class="container footer__container">
+					<div class="footer__row">
+						<nav class="navigation footer__col">
+							<ul class="navigation__list navigation-list">
+								<li class="navigation-list__item">
+									<a class="navigation-list__link" href="/expertise-page.html">
+										<span class="navigation-list__label">Экспертиза</span>
+									</a>
+								</li>
+								<li class="navigation-list__item">
+									<a class="navigation-list__link" href="/repair-page.html">
+										<span class="navigation-list__label">Мастерская</span>
+									</a>
+								</li>
+							</ul>
+						</nav>
+						<a class="logo--sm logo footer__col footer__col--center" href="/"><img class="logo__img" src="/assets/images/logo.svg" alt="logo"></a>
+						<div class="footer__col">
+							<a class="social-item footer__social">
+								<svg class="social-item__icon"><use xlink:href="assets/images/svg-sprite.svg#instagram"></use></svg>
+								<span class="social-item__label">Instagram link</span>
+							</a>
+							<nav class="navigation">
+								<ul class="navigation__list navigation-list">
+									<li class="navigation-list__item">
+										<a class="navigation-list__link" href="#order-merch">
+											<span class="navigation-list__label">Заказать мерч</span>
+										</a>
+									</li>
+								</ul>
+							</nav>
+						</div>
+					</div>
+					<div class="footer__row">
+						<a class="footer__label footer__col" href="#">Политика конфиденциальности</a>
+						<span class="footer__label footer__col footer__col--center">Все права защищены</span>
+						<span class="footer__label footer__col">© 2008-2024. Company</span>
+					</div>
+				</div>
+			</footer>
+			<footer class="footer layout__footer is-mobi">
+				<div class="container footer__container">
+					<div class="footer__row">
+						<a class="logo--sm logo footer__col footer__col--center" href="/"><img class="logo__img" src="/assets/images/logo.svg" alt="logo"></a>
+					</div>
+					<div class="footer__row">
+						<nav class="navigation footer__col">
+							<ul class="navigation__list navigation-list">
+								<li class="navigation-list__item">
+									<a class="navigation-list__link" href="/expertise-page.html">
+										<span class="navigation-list__label">Экспертиза</span>
+									</a>
+								</li>
+								<li class="navigation-list__item">
+									<a class="navigation-list__link" href="/repair-page.html">
+										<span class="navigation-list__label">Мастерская</span>
+									</a>
+								</li>
+								<li class="navigation-list__item">
+									<a class="navigation-list__link" href="/">
+										<span class="navigation-list__label">Заказать мерч</span>
+									</a>
+								</li>
+							</ul>
+						</nav>
+					</div>
+					<div class="footer__row">
+						<a class="footer__label footer__col" href="#">Политика конфиденциальности</a>
+						<span class="footer__label footer__col">Все права защищены</span>
+						<span class="footer__label footer__col">© 2008-2024. Company</span>
+					</div>
+				</div>
+			</footer>
+		</div>
+
+		<script src="assets/scripts/app.min.js"></script>
+	</body>
+</html>
