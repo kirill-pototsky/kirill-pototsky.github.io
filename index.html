@@ -152,7 +152,7 @@
 			</div>
 			<main class="layout__content">
 				<section class="section--lg section">
-					<div class="container">
+					<div class="container section__container">
 						<header class="section__header">
 							<h1 class="section__title">Коллекция</h1>
 							<div class="section__chips">
@@ -288,7 +288,7 @@
 					</div>
 				</section>
 				<section class="section--xs section">
-					<div class="container">
+					<div class="container section__container">
 						<div class="merch-banner">
 							<div class="merch-banner__preview"><img class="banner__image" src="/assets/images/banner-image.jpg" alt="Banner Image"></div>
 							<div class="merch-banner__info">
@@ -303,7 +303,7 @@
 					</div>
 				</section>
 				<section class="section--xs section">
-					<div class="container">
+					<div class="container section__container">
 						<div class="catalog">
 							<div class="catalog__grid">
 								<a class="product-card catalog__item" href="/product-page.html">
@@ -412,338 +412,342 @@
 						</div>
 					</div>
 				</section>
-				<div class="action-bar">
-					<button class="action-bar__item scroll-top scroll-top-js is-mobi">
-						<svg class="scroll-top__icon"><use xlink:href="assets/images/svg-sprite.svg#arrow-top"></use></svg>
-					</button>
-					<div class="filters action-bar__item">
-						<div class="filters__toggle">
-							<svg class="filters__icon"><use xlink:href="assets/images/svg-sprite.svg#filters"></use></svg>
-						</div>
-						<div class="filters__popup">
-							<header class="filters__header">
-								<h4 class="filters__title">Фильтр</h4>
-								<button class="button-tag filters__close">
-									<span class="button-tag__icon">
-										<svg class="button-tag__svg"><use xlink:href="assets/images/svg-sprite.svg#close"></use></svg>
-									</span>
-								</button>
-							</header>
-							<div class="filters__body">
-								<ul class="filters__list">
-									<li class="filters__item">
-										<div class="filters-accordion is-active">
-											<button class="filters-accordion__button">
-												<span class="filters-accordion__label">Примечание</span>
-												<svg class="filters-accordion__icon"><use xlink:href="assets/images/svg-sprite.svg#arrow-down"></use></svg>
-											</button>
-											<ul class="filters-accordion__list">
-												<li class="filters-accordion__item">
-													<label class="filters-checkbox">
-														<input class="filters-checkbox__input" type="checkbox" checked>
-														<span class="filters-checkbox__check">
-															<svg class="filters-checkbox__icon"><use xlink:href="assets/images/svg-sprite.svg#check"></use></svg>
-														</span>
-														<span class="filters-checkbox__label">Учебная</span>
-														<span class="filters-checkbox__count">980</span>
-													</label>
-												</li>
-												<li class="filters-accordion__item">
-													<label class="filters-checkbox">
-														<input class="filters-checkbox__input" type="checkbox" checked>
-														<span class="filters-checkbox__check">
-															<svg class="filters-checkbox__icon"><use xlink:href="assets/images/svg-sprite.svg#check"></use></svg>
-														</span>
-														<span class="filters-checkbox__label">8 марта</span>
-														<span class="filters-checkbox__count">67</span>
-													</label>
-												</li>
-												<li class="filters-accordion__item">
-													<label class="filters-checkbox">
-														<input class="filters-checkbox__input" type="checkbox">
-														<span class="filters-checkbox__check">
-															<svg class="filters-checkbox__icon"><use xlink:href="assets/images/svg-sprite.svg#check"></use></svg>
-														</span>
-														<span class="filters-checkbox__label">Ралли</span>
-														<span class="filters-checkbox__count">180</span>
-													</label>
-												</li>
-												<li class="filters-accordion__item">
-													<label class="filters-checkbox">
-														<input class="filters-checkbox__input" type="checkbox">
-														<span class="filters-checkbox__check">
-															<svg class="filters-checkbox__icon"><use xlink:href="assets/images/svg-sprite.svg#check"></use></svg>
-														</span>
-														<span class="filters-checkbox__label">Такси</span>
-														<span class="filters-checkbox__count">55</span>
-													</label>
-												</li>
-												<li class="filters-accordion__item">
-													<label class="filters-checkbox">
-														<input class="filters-checkbox__input" type="checkbox">
-														<span class="filters-checkbox__check">
-															<svg class="filters-checkbox__icon"><use xlink:href="assets/images/svg-sprite.svg#check"></use></svg>
-														</span>
-														<span class="filters-checkbox__label">ВАИ</span>
-														<span class="filters-checkbox__count">25</span>
-													</label>
-												</li>
-												<li class="filters-accordion__item">
-													<label class="filters-checkbox">
-														<input class="filters-checkbox__input" type="checkbox" checked>
-														<span class="filters-checkbox__check">
-															<svg class="filters-checkbox__icon"><use xlink:href="assets/images/svg-sprite.svg#check"></use></svg>
-														</span>
-														<span class="filters-checkbox__label">Почта России</span>
-														<span class="filters-checkbox__count">33</span>
-													</label>
-												</li>
-												<li class="filters-accordion__item">
-													<label class="filters-checkbox">
-														<input class="filters-checkbox__input" type="checkbox">
-														<span class="filters-checkbox__check">
-															<svg class="filters-checkbox__icon"><use xlink:href="assets/images/svg-sprite.svg#check"></use></svg>
-														</span>
-														<span class="filters-checkbox__label">Телевидение</span>
-														<span class="filters-checkbox__count">22</span>
-													</label>
-												</li>
-												<li class="filters-accordion__item">
-													<label class="filters-checkbox">
-														<input class="filters-checkbox__input" type="checkbox">
-														<span class="filters-checkbox__check">
-															<svg class="filters-checkbox__icon"><use xlink:href="assets/images/svg-sprite.svg#check"></use></svg>
-														</span>
-														<span class="filters-checkbox__label">ВДФСО профсоюз</span>
-														<span class="filters-checkbox__count">25</span>
-													</label>
-												</li>
-											</ul>
-										</div>
-									</li>
-									<li class="filters__item">
-										<div class="filters-accordion">
-											<button class="filters-accordion__button">
-												<span class="filters-accordion__label">Цвет</span>
-												<svg class="filters-accordion__icon"><use xlink:href="assets/images/svg-sprite.svg#arrow-down"></use></svg>
-											</button>
-											<ul class="filters-accordion__list">
-												<li class="filters-accordion__item">
-													<label class="filters-checkbox">
-														<input class="filters-checkbox__input" type="checkbox">
-														<span class="filters-checkbox__check">
-															<svg class="filters-checkbox__icon"><use xlink:href="assets/images/svg-sprite.svg#check"></use></svg>
-														</span>
-														<span class="filters-checkbox__label">Красный</span>
-														<span class="filters-checkbox__count">980</span>
-													</label>
-												</li>
-												<li class="filters-accordion__item">
-													<label class="filters-checkbox">
-														<input class="filters-checkbox__input" type="checkbox">
-														<span class="filters-checkbox__check">
-															<svg class="filters-checkbox__icon"><use xlink:href="assets/images/svg-sprite.svg#check"></use></svg>
-														</span>
-														<span class="filters-checkbox__label">Зеленый</span>
-														<span class="filters-checkbox__count">67</span>
-													</label>
-												</li>
-											</ul>
-										</div>
-									</li>
-									<li class="filters__item">
-										<div class="filters-accordion is-active">
-											<button class="filters-accordion__button">
-												<span class="filters-accordion__label">Материал</span>
-												<svg class="filters-accordion__icon"><use xlink:href="assets/images/svg-sprite.svg#arrow-down"></use></svg>
-											</button>
-											<ul class="filters-accordion__list">
-												<li class="filters-accordion__item">
-													<label class="filters-checkbox">
-														<input class="filters-checkbox__input" type="checkbox" checked>
-														<span class="filters-checkbox__check">
-															<svg class="filters-checkbox__icon"><use xlink:href="assets/images/svg-sprite.svg#check"></use></svg>
-														</span>
-														<span class="filters-checkbox__label">Пластик</span>
-														<span class="filters-checkbox__count">865</span>
-													</label>
-												</li>
-												<li class="filters-accordion__item">
-													<label class="filters-checkbox">
-														<input class="filters-checkbox__input" type="checkbox" checked>
-														<span class="filters-checkbox__check">
-															<svg class="filters-checkbox__icon"><use xlink:href="assets/images/svg-sprite.svg#check"></use></svg>
-														</span>
-														<span class="filters-checkbox__label">Металл</span>
-														<span class="filters-checkbox__count">2355</span>
-													</label>
-												</li>
-											</ul>
-										</div>
-									</li>
-									<li class="filters__item">
-										<div class="filters-accordion is-active">
-											<button class="filters-accordion__button">
-												<span class="filters-accordion__label">Примечание</span>
-												<svg class="filters-accordion__icon"><use xlink:href="assets/images/svg-sprite.svg#arrow-down"></use></svg>
-											</button>
-											<ul class="filters-accordion__list">
-												<li class="filters-accordion__item">
-													<label class="filters-checkbox">
-														<input class="filters-checkbox__input" type="checkbox" checked>
-														<span class="filters-checkbox__check">
-															<svg class="filters-checkbox__icon"><use xlink:href="assets/images/svg-sprite.svg#check"></use></svg>
-														</span>
-														<span class="filters-checkbox__label">Учебная</span>
-														<span class="filters-checkbox__count">980</span>
-													</label>
-												</li>
-												<li class="filters-accordion__item">
-													<label class="filters-checkbox">
-														<input class="filters-checkbox__input" type="checkbox" checked>
-														<span class="filters-checkbox__check">
-															<svg class="filters-checkbox__icon"><use xlink:href="assets/images/svg-sprite.svg#check"></use></svg>
-														</span>
-														<span class="filters-checkbox__label">8 марта</span>
-														<span class="filters-checkbox__count">67</span>
-													</label>
-												</li>
-												<li class="filters-accordion__item">
-													<label class="filters-checkbox">
-														<input class="filters-checkbox__input" type="checkbox">
-														<span class="filters-checkbox__check">
-															<svg class="filters-checkbox__icon"><use xlink:href="assets/images/svg-sprite.svg#check"></use></svg>
-														</span>
-														<span class="filters-checkbox__label">Ралли</span>
-														<span class="filters-checkbox__count">180</span>
-													</label>
-												</li>
-												<li class="filters-accordion__item">
-													<label class="filters-checkbox">
-														<input class="filters-checkbox__input" type="checkbox">
-														<span class="filters-checkbox__check">
-															<svg class="filters-checkbox__icon"><use xlink:href="assets/images/svg-sprite.svg#check"></use></svg>
-														</span>
-														<span class="filters-checkbox__label">Такси</span>
-														<span class="filters-checkbox__count">55</span>
-													</label>
-												</li>
-												<li class="filters-accordion__item">
-													<label class="filters-checkbox">
-														<input class="filters-checkbox__input" type="checkbox">
-														<span class="filters-checkbox__check">
-															<svg class="filters-checkbox__icon"><use xlink:href="assets/images/svg-sprite.svg#check"></use></svg>
-														</span>
-														<span class="filters-checkbox__label">ВАИ</span>
-														<span class="filters-checkbox__count">25</span>
-													</label>
-												</li>
-												<li class="filters-accordion__item">
-													<label class="filters-checkbox">
-														<input class="filters-checkbox__input" type="checkbox" checked>
-														<span class="filters-checkbox__check">
-															<svg class="filters-checkbox__icon"><use xlink:href="assets/images/svg-sprite.svg#check"></use></svg>
-														</span>
-														<span class="filters-checkbox__label">Почта России</span>
-														<span class="filters-checkbox__count">33</span>
-													</label>
-												</li>
-												<li class="filters-accordion__item">
-													<label class="filters-checkbox">
-														<input class="filters-checkbox__input" type="checkbox">
-														<span class="filters-checkbox__check">
-															<svg class="filters-checkbox__icon"><use xlink:href="assets/images/svg-sprite.svg#check"></use></svg>
-														</span>
-														<span class="filters-checkbox__label">Телевидение</span>
-														<span class="filters-checkbox__count">22</span>
-													</label>
-												</li>
-												<li class="filters-accordion__item">
-													<label class="filters-checkbox">
-														<input class="filters-checkbox__input" type="checkbox">
-														<span class="filters-checkbox__check">
-															<svg class="filters-checkbox__icon"><use xlink:href="assets/images/svg-sprite.svg#check"></use></svg>
-														</span>
-														<span class="filters-checkbox__label">ВДФСО профсоюз</span>
-														<span class="filters-checkbox__count">25</span>
-													</label>
-												</li>
-											</ul>
-										</div>
-									</li>
-									<li class="filters__item">
-										<div class="filters-accordion">
-											<button class="filters-accordion__button">
-												<span class="filters-accordion__label">Цвет</span>
-												<svg class="filters-accordion__icon"><use xlink:href="assets/images/svg-sprite.svg#arrow-down"></use></svg>
-											</button>
-											<ul class="filters-accordion__list">
-												<li class="filters-accordion__item">
-													<label class="filters-checkbox">
-														<input class="filters-checkbox__input" type="checkbox">
-														<span class="filters-checkbox__check">
-															<svg class="filters-checkbox__icon"><use xlink:href="assets/images/svg-sprite.svg#check"></use></svg>
-														</span>
-														<span class="filters-checkbox__label">Красный</span>
-														<span class="filters-checkbox__count">980</span>
-													</label>
-												</li>
-												<li class="filters-accordion__item">
-													<label class="filters-checkbox">
-														<input class="filters-checkbox__input" type="checkbox">
-														<span class="filters-checkbox__check">
-															<svg class="filters-checkbox__icon"><use xlink:href="assets/images/svg-sprite.svg#check"></use></svg>
-														</span>
-														<span class="filters-checkbox__label">Зеленый</span>
-														<span class="filters-checkbox__count">67</span>
-													</label>
-												</li>
-											</ul>
-										</div>
-									</li>
-									<li class="filters__item">
-										<div class="filters-accordion is-active">
-											<button class="filters-accordion__button">
-												<span class="filters-accordion__label">Материал</span>
-												<svg class="filters-accordion__icon"><use xlink:href="assets/images/svg-sprite.svg#arrow-down"></use></svg>
-											</button>
-											<ul class="filters-accordion__list">
-												<li class="filters-accordion__item">
-													<label class="filters-checkbox">
-														<input class="filters-checkbox__input" type="checkbox" checked>
-														<span class="filters-checkbox__check">
-															<svg class="filters-checkbox__icon"><use xlink:href="assets/images/svg-sprite.svg#check"></use></svg>
-														</span>
-														<span class="filters-checkbox__label">Пластик</span>
-														<span class="filters-checkbox__count">865</span>
-													</label>
-												</li>
-												<li class="filters-accordion__item">
-													<label class="filters-checkbox">
-														<input class="filters-checkbox__input" type="checkbox" checked>
-														<span class="filters-checkbox__check">
-															<svg class="filters-checkbox__icon"><use xlink:href="assets/images/svg-sprite.svg#check"></use></svg>
-														</span>
-														<span class="filters-checkbox__label">Металл</span>
-														<span class="filters-checkbox__count">2355</span>
-													</label>
-												</li>
-											</ul>
-										</div>
-									</li>
-								</ul>
-							</div>
-							<div class="filters__actions">
-								<button class="filters__clear">Отчистить фильтр</button>
-								<button class="button button--primary filters__button">
-									<span class="button__label">1440 моделей</span>
-								</button>
+				<section class="section--xs section section--action">
+					<div class="container section__container">
+						<div class="action-bar">
+							<button class="action-bar__item scroll-top scroll-top-js is-mobi">
+								<svg class="scroll-top__icon"><use xlink:href="assets/images/svg-sprite.svg#arrow-top"></use></svg>
+							</button>
+							<div class="filters action-bar__item">
+								<div class="filters__toggle">
+									<svg class="filters__icon"><use xlink:href="assets/images/svg-sprite.svg#filters"></use></svg>
+								</div>
+								<div class="filters__popup">
+									<header class="filters__header">
+										<h4 class="filters__title">Фильтр</h4>
+										<button class="button-tag filters__close">
+											<span class="button-tag__icon">
+												<svg class="button-tag__svg"><use xlink:href="assets/images/svg-sprite.svg#close"></use></svg>
+											</span>
+										</button>
+									</header>
+									<div class="filters__body">
+										<ul class="filters__list">
+											<li class="filters__item">
+												<div class="filters-accordion is-active">
+													<button class="filters-accordion__button">
+														<span class="filters-accordion__label">Примечание</span>
+														<svg class="filters-accordion__icon"><use xlink:href="assets/images/svg-sprite.svg#arrow-down"></use></svg>
+													</button>
+													<ul class="filters-accordion__list">
+														<li class="filters-accordion__item">
+															<label class="filters-checkbox">
+																<input class="filters-checkbox__input" type="checkbox" checked>
+																<span class="filters-checkbox__check">
+																	<svg class="filters-checkbox__icon"><use xlink:href="assets/images/svg-sprite.svg#check"></use></svg>
+																</span>
+																<span class="filters-checkbox__label">Учебная</span>
+																<span class="filters-checkbox__count">980</span>
+															</label>
+														</li>
+														<li class="filters-accordion__item">
+															<label class="filters-checkbox">
+																<input class="filters-checkbox__input" type="checkbox" checked>
+																<span class="filters-checkbox__check">
+																	<svg class="filters-checkbox__icon"><use xlink:href="assets/images/svg-sprite.svg#check"></use></svg>
+																</span>
+																<span class="filters-checkbox__label">8 марта</span>
+																<span class="filters-checkbox__count">67</span>
+															</label>
+														</li>
+														<li class="filters-accordion__item">
+															<label class="filters-checkbox">
+																<input class="filters-checkbox__input" type="checkbox">
+																<span class="filters-checkbox__check">
+																	<svg class="filters-checkbox__icon"><use xlink:href="assets/images/svg-sprite.svg#check"></use></svg>
+																</span>
+																<span class="filters-checkbox__label">Ралли</span>
+																<span class="filters-checkbox__count">180</span>
+															</label>
+														</li>
+														<li class="filters-accordion__item">
+															<label class="filters-checkbox">
+																<input class="filters-checkbox__input" type="checkbox">
+																<span class="filters-checkbox__check">
+																	<svg class="filters-checkbox__icon"><use xlink:href="assets/images/svg-sprite.svg#check"></use></svg>
+																</span>
+																<span class="filters-checkbox__label">Такси</span>
+																<span class="filters-checkbox__count">55</span>
+															</label>
+														</li>
+														<li class="filters-accordion__item">
+															<label class="filters-checkbox">
+																<input class="filters-checkbox__input" type="checkbox">
+																<span class="filters-checkbox__check">
+																	<svg class="filters-checkbox__icon"><use xlink:href="assets/images/svg-sprite.svg#check"></use></svg>
+																</span>
+																<span class="filters-checkbox__label">ВАИ</span>
+																<span class="filters-checkbox__count">25</span>
+															</label>
+														</li>
+														<li class="filters-accordion__item">
+															<label class="filters-checkbox">
+																<input class="filters-checkbox__input" type="checkbox" checked>
+																<span class="filters-checkbox__check">
+																	<svg class="filters-checkbox__icon"><use xlink:href="assets/images/svg-sprite.svg#check"></use></svg>
+																</span>
+																<span class="filters-checkbox__label">Почта России</span>
+																<span class="filters-checkbox__count">33</span>
+															</label>
+														</li>
+														<li class="filters-accordion__item">
+															<label class="filters-checkbox">
+																<input class="filters-checkbox__input" type="checkbox">
+																<span class="filters-checkbox__check">
+																	<svg class="filters-checkbox__icon"><use xlink:href="assets/images/svg-sprite.svg#check"></use></svg>
+																</span>
+																<span class="filters-checkbox__label">Телевидение</span>
+																<span class="filters-checkbox__count">22</span>
+															</label>
+														</li>
+														<li class="filters-accordion__item">
+															<label class="filters-checkbox">
+																<input class="filters-checkbox__input" type="checkbox">
+																<span class="filters-checkbox__check">
+																	<svg class="filters-checkbox__icon"><use xlink:href="assets/images/svg-sprite.svg#check"></use></svg>
+																</span>
+																<span class="filters-checkbox__label">ВДФСО профсоюз</span>
+																<span class="filters-checkbox__count">25</span>
+															</label>
+														</li>
+													</ul>
+												</div>
+											</li>
+											<li class="filters__item">
+												<div class="filters-accordion">
+													<button class="filters-accordion__button">
+														<span class="filters-accordion__label">Цвет</span>
+														<svg class="filters-accordion__icon"><use xlink:href="assets/images/svg-sprite.svg#arrow-down"></use></svg>
+													</button>
+													<ul class="filters-accordion__list">
+														<li class="filters-accordion__item">
+															<label class="filters-checkbox">
+																<input class="filters-checkbox__input" type="checkbox">
+																<span class="filters-checkbox__check">
+																	<svg class="filters-checkbox__icon"><use xlink:href="assets/images/svg-sprite.svg#check"></use></svg>
+																</span>
+																<span class="filters-checkbox__label">Красный</span>
+																<span class="filters-checkbox__count">980</span>
+															</label>
+														</li>
+														<li class="filters-accordion__item">
+															<label class="filters-checkbox">
+																<input class="filters-checkbox__input" type="checkbox">
+																<span class="filters-checkbox__check">
+																	<svg class="filters-checkbox__icon"><use xlink:href="assets/images/svg-sprite.svg#check"></use></svg>
+																</span>
+																<span class="filters-checkbox__label">Зеленый</span>
+																<span class="filters-checkbox__count">67</span>
+															</label>
+														</li>
+													</ul>
+												</div>
+											</li>
+											<li class="filters__item">
+												<div class="filters-accordion is-active">
+													<button class="filters-accordion__button">
+														<span class="filters-accordion__label">Материал</span>
+														<svg class="filters-accordion__icon"><use xlink:href="assets/images/svg-sprite.svg#arrow-down"></use></svg>
+													</button>
+													<ul class="filters-accordion__list">
+														<li class="filters-accordion__item">
+															<label class="filters-checkbox">
+																<input class="filters-checkbox__input" type="checkbox" checked>
+																<span class="filters-checkbox__check">
+																	<svg class="filters-checkbox__icon"><use xlink:href="assets/images/svg-sprite.svg#check"></use></svg>
+																</span>
+																<span class="filters-checkbox__label">Пластик</span>
+																<span class="filters-checkbox__count">865</span>
+															</label>
+														</li>
+														<li class="filters-accordion__item">
+															<label class="filters-checkbox">
+																<input class="filters-checkbox__input" type="checkbox" checked>
+																<span class="filters-checkbox__check">
+																	<svg class="filters-checkbox__icon"><use xlink:href="assets/images/svg-sprite.svg#check"></use></svg>
+																</span>
+																<span class="filters-checkbox__label">Металл</span>
+																<span class="filters-checkbox__count">2355</span>
+															</label>
+														</li>
+													</ul>
+												</div>
+											</li>
+											<li class="filters__item">
+												<div class="filters-accordion is-active">
+													<button class="filters-accordion__button">
+														<span class="filters-accordion__label">Примечание</span>
+														<svg class="filters-accordion__icon"><use xlink:href="assets/images/svg-sprite.svg#arrow-down"></use></svg>
+													</button>
+													<ul class="filters-accordion__list">
+														<li class="filters-accordion__item">
+															<label class="filters-checkbox">
+																<input class="filters-checkbox__input" type="checkbox" checked>
+																<span class="filters-checkbox__check">
+																	<svg class="filters-checkbox__icon"><use xlink:href="assets/images/svg-sprite.svg#check"></use></svg>
+																</span>
+																<span class="filters-checkbox__label">Учебная</span>
+																<span class="filters-checkbox__count">980</span>
+															</label>
+														</li>
+														<li class="filters-accordion__item">
+															<label class="filters-checkbox">
+																<input class="filters-checkbox__input" type="checkbox" checked>
+																<span class="filters-checkbox__check">
+																	<svg class="filters-checkbox__icon"><use xlink:href="assets/images/svg-sprite.svg#check"></use></svg>
+																</span>
+																<span class="filters-checkbox__label">8 марта</span>
+																<span class="filters-checkbox__count">67</span>
+															</label>
+														</li>
+														<li class="filters-accordion__item">
+															<label class="filters-checkbox">
+																<input class="filters-checkbox__input" type="checkbox">
+																<span class="filters-checkbox__check">
+																	<svg class="filters-checkbox__icon"><use xlink:href="assets/images/svg-sprite.svg#check"></use></svg>
+																</span>
+																<span class="filters-checkbox__label">Ралли</span>
+																<span class="filters-checkbox__count">180</span>
+															</label>
+														</li>
+														<li class="filters-accordion__item">
+															<label class="filters-checkbox">
+																<input class="filters-checkbox__input" type="checkbox">
+																<span class="filters-checkbox__check">
+																	<svg class="filters-checkbox__icon"><use xlink:href="assets/images/svg-sprite.svg#check"></use></svg>
+																</span>
+																<span class="filters-checkbox__label">Такси</span>
+																<span class="filters-checkbox__count">55</span>
+															</label>
+														</li>
+														<li class="filters-accordion__item">
+															<label class="filters-checkbox">
+																<input class="filters-checkbox__input" type="checkbox">
+																<span class="filters-checkbox__check">
+																	<svg class="filters-checkbox__icon"><use xlink:href="assets/images/svg-sprite.svg#check"></use></svg>
+																</span>
+																<span class="filters-checkbox__label">ВАИ</span>
+																<span class="filters-checkbox__count">25</span>
+															</label>
+														</li>
+														<li class="filters-accordion__item">
+															<label class="filters-checkbox">
+																<input class="filters-checkbox__input" type="checkbox" checked>
+																<span class="filters-checkbox__check">
+																	<svg class="filters-checkbox__icon"><use xlink:href="assets/images/svg-sprite.svg#check"></use></svg>
+																</span>
+																<span class="filters-checkbox__label">Почта России</span>
+																<span class="filters-checkbox__count">33</span>
+															</label>
+														</li>
+														<li class="filters-accordion__item">
+															<label class="filters-checkbox">
+																<input class="filters-checkbox__input" type="checkbox">
+																<span class="filters-checkbox__check">
+																	<svg class="filters-checkbox__icon"><use xlink:href="assets/images/svg-sprite.svg#check"></use></svg>
+																</span>
+																<span class="filters-checkbox__label">Телевидение</span>
+																<span class="filters-checkbox__count">22</span>
+															</label>
+														</li>
+														<li class="filters-accordion__item">
+															<label class="filters-checkbox">
+																<input class="filters-checkbox__input" type="checkbox">
+																<span class="filters-checkbox__check">
+																	<svg class="filters-checkbox__icon"><use xlink:href="assets/images/svg-sprite.svg#check"></use></svg>
+																</span>
+																<span class="filters-checkbox__label">ВДФСО профсоюз</span>
+																<span class="filters-checkbox__count">25</span>
+															</label>
+														</li>
+													</ul>
+												</div>
+											</li>
+											<li class="filters__item">
+												<div class="filters-accordion">
+													<button class="filters-accordion__button">
+														<span class="filters-accordion__label">Цвет</span>
+														<svg class="filters-accordion__icon"><use xlink:href="assets/images/svg-sprite.svg#arrow-down"></use></svg>
+													</button>
+													<ul class="filters-accordion__list">
+														<li class="filters-accordion__item">
+															<label class="filters-checkbox">
+																<input class="filters-checkbox__input" type="checkbox">
+																<span class="filters-checkbox__check">
+																	<svg class="filters-checkbox__icon"><use xlink:href="assets/images/svg-sprite.svg#check"></use></svg>
+																</span>
+																<span class="filters-checkbox__label">Красный</span>
+																<span class="filters-checkbox__count">980</span>
+															</label>
+														</li>
+														<li class="filters-accordion__item">
+															<label class="filters-checkbox">
+																<input class="filters-checkbox__input" type="checkbox">
+																<span class="filters-checkbox__check">
+																	<svg class="filters-checkbox__icon"><use xlink:href="assets/images/svg-sprite.svg#check"></use></svg>
+																</span>
+																<span class="filters-checkbox__label">Зеленый</span>
+																<span class="filters-checkbox__count">67</span>
+															</label>
+														</li>
+													</ul>
+												</div>
+											</li>
+											<li class="filters__item">
+												<div class="filters-accordion is-active">
+													<button class="filters-accordion__button">
+														<span class="filters-accordion__label">Материал</span>
+														<svg class="filters-accordion__icon"><use xlink:href="assets/images/svg-sprite.svg#arrow-down"></use></svg>
+													</button>
+													<ul class="filters-accordion__list">
+														<li class="filters-accordion__item">
+															<label class="filters-checkbox">
+																<input class="filters-checkbox__input" type="checkbox" checked>
+																<span class="filters-checkbox__check">
+																	<svg class="filters-checkbox__icon"><use xlink:href="assets/images/svg-sprite.svg#check"></use></svg>
+																</span>
+																<span class="filters-checkbox__label">Пластик</span>
+																<span class="filters-checkbox__count">865</span>
+															</label>
+														</li>
+														<li class="filters-accordion__item">
+															<label class="filters-checkbox">
+																<input class="filters-checkbox__input" type="checkbox" checked>
+																<span class="filters-checkbox__check">
+																	<svg class="filters-checkbox__icon"><use xlink:href="assets/images/svg-sprite.svg#check"></use></svg>
+																</span>
+																<span class="filters-checkbox__label">Металл</span>
+																<span class="filters-checkbox__count">2355</span>
+															</label>
+														</li>
+													</ul>
+												</div>
+											</li>
+										</ul>
+									</div>
+									<div class="filters__actions">
+										<button class="filters__clear">Отчистить фильтр</button>
+										<button class="button button--primary filters__button">
+											<span class="button__label">1440 моделей</span>
+										</button>
+									</div>
+								</div>
 							</div>
 						</div>
 					</div>
-				</div>
+				</section>
 				<section class="section--xs section">
-					<div class="container">
+					<div class="container section__container">
 						<div class="pagination layout__pagination">
 							<div class="pagination__count products-count">
 								<div class="products-count__selected">
